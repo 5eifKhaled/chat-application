@@ -32,7 +32,7 @@ const MessageForm = (props) => {
     <form className="message-form" onSubmit={handleSubmit}>
       <input
         className="message-input"
-        placeholder="Send a message..."
+        placeholder="Start typing here..."
         value={value}
         onChange={handleChange}
         onSubmit={handleSubmit}
@@ -49,7 +49,7 @@ const MessageForm = (props) => {
         style={{ display: 'none' }}
         onChange={handleUpload.bind(this)}
       />
-      <button type="submit" className="send-button">
+      <button type="submit" className="send-button" aria-label="Send Message">
         <SendOutlined className="send-icon" />
       </button>
     </form>
