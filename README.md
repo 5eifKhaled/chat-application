@@ -27,7 +27,7 @@ This project is a real-time chat application built using Chat Engine communicati
 
 ## Installation
 1. Clone the repository:
-git clone https://github.com/SeifKhaled13/chat-application.git
+git clone https://github.com/5eifKhaled/chat-application.git
 2. Navigate to the project directory:
 cd real-time-chat-app
 3. Install dependencies:
